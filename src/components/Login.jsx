@@ -37,7 +37,7 @@ const Login = () => {
         console.log(data);
         console.log("done logging in with mobile number");
     } catch (error) {
-        console.log(error);
+        console.log("wrong otp");
     }
   }
   return (
